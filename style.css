@@ -1,0 +1,35 @@
+<style>
+  body {
+    margin : 0px;
+  }
+  #active {
+    color: green;
+    font-size: 15px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    border-bottom: 2px solid black;
+  }
+  .grid .a, .grid .b {
+    border-right: 2px dashed black;
+  }
+  .grid .a, .grid .b, .grid .c {
+    height: 150px;
+    padding-top: 10px;
+  }
+  a {
+    color:black;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:45px;
+    text-align: center;
+    border-bottom:2px solid black;
+    margin:0;
+    padding:20px;
+  }
+</style>
